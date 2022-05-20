@@ -1,7 +1,44 @@
 body {
     background-color: darkslategrey;
+    font-family: 'Libre Baskerville', serif;
 }
 
 nav {
-    background-color: black;
+    background: darkslategrey;
+}
+
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 350px;
+    /*border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(72, 93, 80); */
+    margin-bottom: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: lightblue;
+}
+.teksti {
+    text-align: center;
+    color: lightblue;
+    display: block;
+    font-family: 'Libre Baskerville', serif;
+    margin: auto;
+}
+
+.tummaTeksti {
+    color: darkslategrey;
+}
+
+#accordion {
+    width: 50%;
+    margin: auto;
+}
+
+#avain {
+    width: 25%;
 }

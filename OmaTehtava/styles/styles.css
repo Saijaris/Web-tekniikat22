@@ -1,6 +1,8 @@
 body {
     background-color: darkslategrey;
     font-family: 'Libre Baskerville', serif;
+    color: lightblue;
+    text-align: center;
 }
 
 nav {
@@ -18,15 +20,32 @@ header img {
     margin-bottom: 30px;
 }
 
+.vertical {
+    width: 20%;
+    text-align: left;
+    font-size: 1.5em;
+}
 h1 {
     text-align: center;
     color: lightblue;
 }
+
+h4 {
+    margin-top: 10px;
+}
+
+p {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
 .teksti {
     text-align: center;
     color: lightblue;
     display: block;
-    font-family: 'Libre Baskerville', serif;
     margin: auto;
 }
 
@@ -41,4 +60,16 @@ h1 {
 
 #avain {
     width: 25%;
+}
+
+#teksti {
+    color: lightblue;
+    display: block;
+    font-family: 'Libre Baskerville', serif;
+}
+
+#navbar {
+    background-color: darkslategrey;
+    font-family: 'Libre Baskerville', serif;
+    color: lightblue;
 }

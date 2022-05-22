@@ -1,7 +1,10 @@
+$lightcolor: lightblue;
+
+
 body {
     background-color: darkslategrey;
     font-family: 'Libre Baskerville', serif;
-    color: lightblue;
+    color: $lightcolor;
     text-align: center;
 }
 
@@ -27,7 +30,7 @@ header img {
 }
 h1 {
     text-align: center;
-    color: lightblue;
+    color: $lightcolor;
 }
 
 h4 {
@@ -36,7 +39,7 @@ h4 {
 
 h4 ~ p {
     text-align: justify;
-    color: lightblue;
+    color: $lightcolor;
 }
 
 p {
@@ -49,7 +52,7 @@ p {
 
 .teksti {
     text-align: center;
-    color: lightblue;
+    color: $lightcolor;
     display: block;
     margin: auto;
 }
@@ -68,7 +71,7 @@ p {
 }
 
 #teksti {
-    color: lightblue;
+    color: $lightcolor;
     display: block;
     font-family: 'Libre Baskerville', serif;
 }
@@ -76,12 +79,12 @@ p {
 #navbar {
     background-color: darkslategrey;
     font-family: 'Libre Baskerville', serif;
-    color: lightblue;
+    color: $lightcolor;
 }
 
 #pelinNimi {
     font-size: 1em;
-    color: lightblue;
+    color: $lightcolor;
 }
 
 #isoTeksti {
@@ -97,16 +100,22 @@ a:link {
     text-decoration: none;
   }
   
-  a:visited {
+a:visited {
     text-decoration: none;
   }
 
-  li > a {
-      color: lightblue;
-      text-decoration: none;
+li > a {
+    color: $lightcolor;
+    text-decoration: none;
   }
-  span > * {
-      width: 30%;
-      height: 200px;
-      margin-top: 30px;
+
+span > * {
+    width: 30%;
+    height: 200px;
+    margin-top: 30px;
   }
+
+  footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

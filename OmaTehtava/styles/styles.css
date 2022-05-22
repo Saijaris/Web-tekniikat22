@@ -34,6 +34,11 @@ h4 {
     margin-top: 10px;
 }
 
+h4 ~ p {
+    text-align: justify;
+    color: lightblue;
+}
+
 p {
     text-align: center;
     width: 60%;
@@ -94,4 +99,14 @@ a:link {
   
   a:visited {
     text-decoration: none;
+  }
+
+  li > a {
+      color: lightblue;
+      text-decoration: none;
+  }
+  span > * {
+      width: 30%;
+      height: 200px;
+      margin-top: 30px;
   }

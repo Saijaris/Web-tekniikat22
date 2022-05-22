@@ -1,7 +1,9 @@
 body {
   background-color: darkslategrey;
-  font-family: "Libre Baskerville", serif;
   color: lightblue;
+  /*background-color: darkslategrey;*/
+  font-family: "Libre Baskerville", serif;
+  /*color: $lightcolor;*/
   text-align: center;
 }
 
@@ -76,8 +78,10 @@ p {
 
 #navbar {
   background-color: darkslategrey;
-  font-family: "Libre Baskerville", serif;
   color: lightblue;
+  /*background-color: darkslategrey;*/
+  font-family: "Libre Baskerville", serif;
+  /*color: $lightcolor; */
 }
 
 #pelinNimi {

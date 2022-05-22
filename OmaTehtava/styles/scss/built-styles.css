@@ -1,0 +1,116 @@
+body {
+  background-color: darkslategrey;
+  font-family: "Libre Baskerville", serif;
+  color: lightblue;
+  text-align: center;
+}
+
+nav {
+  background: darkslategrey;
+}
+
+header img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: 350px;
+  /*border-radius: 10px;
+  box-shadow: 10px 10px 10px rgb(72, 93, 80); */
+  margin-bottom: 30px;
+}
+
+.vertical {
+  width: 20%;
+  text-align: left;
+  font-size: 1.5em;
+}
+
+h1 {
+  text-align: center;
+  color: lightblue;
+}
+
+h4 {
+  margin-top: 10px;
+}
+
+h4 ~ p {
+  text-align: justify;
+  color: lightblue;
+}
+
+p {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.teksti {
+  text-align: center;
+  color: lightblue;
+  display: block;
+  margin: auto;
+}
+
+.tummaTeksti {
+  color: darkslategrey;
+}
+
+#accordion {
+  width: 50%;
+  margin: auto;
+}
+
+#avain {
+  width: 25%;
+}
+
+#teksti {
+  color: lightblue;
+  display: block;
+  font-family: "Libre Baskerville", serif;
+}
+
+#navbar {
+  background-color: darkslategrey;
+  font-family: "Libre Baskerville", serif;
+  color: lightblue;
+}
+
+#pelinNimi {
+  font-size: 1em;
+  color: lightblue;
+}
+
+#isoTeksti {
+  font-size: 1.5em;
+}
+
+#painike {
+  color: darkslategrey;
+  margin-bottom: 15px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+li > a {
+  color: lightblue;
+  text-decoration: none;
+}
+
+span > * {
+  width: 30%;
+  height: 200px;
+  margin-top: 30px;
+}
+
+/*# sourceMappingURL=built-styles.css.map */

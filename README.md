@@ -1,0 +1,1 @@
+Sivusto on tehty web-tekniikat-opintojaksolle. Sivusto on tehty itseäni kiinnostavasta aiheesta ja mieluisasta harrastuksestani eli room escape -peleistä. Sivuston toteutuksessa on käytetty bootstrapia, advanced JavaScriptiä sekä advanced CSS:a.

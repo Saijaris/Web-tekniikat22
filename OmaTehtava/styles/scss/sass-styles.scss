@@ -1,5 +1,9 @@
 $lightcolor: lightblue;
 $link-dec: none;
+$highlight-color: coral;
+$newbackround: aquamarine;
+$otsikko: red;
+$greenbackground: lawngreen;
 
 
 @mixin theme ($theme: darkslategrey) {
@@ -126,4 +130,17 @@ span > * {
   footer {
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.kirkas {
+    color: $highlight-color;
+    background-color: $newbackround;
+}
+
+.huomio {
+    color: $otsikko;
+}
+
+.vihrea {
+    background-color: $greenbackground;
 }

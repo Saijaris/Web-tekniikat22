@@ -122,4 +122,17 @@ footer {
   margin-bottom: 20px;
 }
 
+.kirkas {
+  color: coral;
+  background-color: aquamarine;
+}
+
+.huomio {
+  color: red;
+}
+
+.vihrea {
+  background-color: lawngreen;
+}
+
 /*# sourceMappingURL=built-styles.css.map */
